@@ -50,5 +50,5 @@ function updateLike(message_id)
 function logout() {
 localStorage.removeItem("user_name");
 localStorage.removeItem("room_name");
-window.location.replace("kwitter.html");
+window.location.replace("index.html");
 }
